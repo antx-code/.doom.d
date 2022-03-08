@@ -94,3 +94,5 @@
 ;; Number the candidates (use M-1, M-2 etc to select completions).
 (setq company-show-numbers t)
 
+(setq fancy-splash-image "~/pics/icon/Cute-doom.png")
+
