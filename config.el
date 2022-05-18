@@ -78,7 +78,10 @@
 
 ;; wakatime-mode for doom emacs
 (use-package wakatime-mode
-	:ensure t)
+						 :ensure t
+						 :config (setq wakatime-cli-path "/home/antx-soc/.wakatime/wakatime-cli"
+													 wakatime-python-path "/usr/bin/python3")
+						 )
 
 (global-wakatime-mode)
 
@@ -94,5 +97,6 @@
 ;; Number the candidates (use M-1, M-2 etc to select completions).
 (setq company-show-numbers t)
 
+;; set my emacs splash image
 (setq fancy-splash-image "~/pics/icon/Cute-doom.png")
 
