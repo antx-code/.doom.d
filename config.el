@@ -6,7 +6,7 @@
 
 ;; Some functionality uses this to identify you, e.g. GPG configuration, email
 ;; clients, file templates and snippets. It is optional.
-(setq user-full-name "Antx"
+(setq user-full-name "antx-emacs"
       user-mail-address "wkaifeng2007@163.com")
 
 ;; Doom exposes five (optional) variables for controlling fonts in Doom:
@@ -40,7 +40,7 @@
 
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
-(setq org-directory "~/Nutstore Files/我的坚果云/Org/gtd/work/")
+(setq org-directory "~/org")
 
 
 ;; Whenever you reconfigure a package, make sure to wrap your config in an
@@ -75,6 +75,11 @@
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
 
+
+;; use tsinghua emacs soure
+(setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+												 ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
+												 ("gnu-cn"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")))
 
 ;; wakatime-mode for doom emacs
 (use-package wakatime-mode

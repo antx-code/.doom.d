@@ -51,7 +51,7 @@
 
 ;; 设置elpa国内清华源
 
-(setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
-												 ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
-												 ("org" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/org/")))
+;(setq package-archives '(("gnu"   . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+;												 ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
+;												 ("org" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/org/")))
 
